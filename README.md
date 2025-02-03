@@ -24,7 +24,7 @@ OPSEC-T-Pot is the all in one, optionally distributed, multiarch (amd64, arm64) 
    
 
 ```
-env bash -c "$(curl -sL https://raw.githubusercontent.com/nu11secur1ty/tpotce/refs/heads/main/install.sh)"
+env bash -c "$(curl -sL https://raw.githubusercontent.com/nu11secur1ty/tpotce/refs/heads/master/install.sh)"
 ```
 - Secondary repository
 ```
