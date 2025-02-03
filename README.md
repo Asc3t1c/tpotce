@@ -26,7 +26,7 @@ OPSEC-T-Pot is the all in one, optionally distributed, multiarch (amd64, arm64) 
 <<<<<<< HEAD
 env bash -c "$(curl -sL https://github.com/f0rc3ps/tpotce/raw/master/install.sh)"
 =======
-env bash -c "$(curl -sL https://github.com/nu11secur1ty/tpotce/raw/master/install.sh)"
+env bash -c "$(curl -sL https://raw.githubusercontent.com/nu11secur1ty/tpotce/refs/heads/main/install.sh)"
 
 ```
    * Follow instructions, read messages, check for possible port conflicts and reboot
