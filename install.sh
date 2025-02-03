@@ -119,7 +119,7 @@ fi
 if [ ! -f installer/install/tpot.yml ] && [ ! -f tpot.yml ];
   then
     echo "### Now downloading T-Pot Ansible Installation Playbook ... "
-    wget https://raw.githubusercontent.com/nu11secur1ty/tpotce/refs/heads/main/installer/install/tpot.yml
+    wget https://raw.githubusercontent.com/nu11secur1ty/tpotce/refs/heads/master/installer/install/tpot.yml
     myANSIBLE_TPOT_PLAYBOOK="tpot.yml"
     echo
   else
