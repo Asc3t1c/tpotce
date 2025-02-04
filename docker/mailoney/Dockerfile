@@ -10,7 +10,7 @@ RUN apk -U --no-cache add \
 # Install mailoney from git
     git clone https://github.com/t3chn0m4g3/mailoney /opt/mailoney && \
     cd /opt/mailoney && \
-    pip3 install --break-system-packages -r requirements.txt && \
+    # pip3 install --break-system-packages -r requirements.txt && \
 #
 # Setup user, groups and configs
     addgroup -g 2000 mailoney && \
