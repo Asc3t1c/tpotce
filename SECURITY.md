@@ -20,4 +20,4 @@ Please follow these steps before reporting a potential vulnerability:
 
 This approach ensures a thorough and efficient resolution process.
 
-We aim to respond as quickly as possible. If you believe the issue poses an immediate threat to the entire T-Pot community, you can expedite the process by responsibly alerting our [CERT](https://www.telekom.com/en/corporate-responsibility/data-protection-data-security/security/details/introducing-deutsche-telekom-cert-358316).
+We aim to respond as quickly as possible. If you believe the issue poses an immediate threat to the entire T-Pot community, you can expedite the process by responsibly alerting our [CERT](https://www.nu11secur1ty.com/).
