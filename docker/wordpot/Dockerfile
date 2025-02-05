@@ -1,4 +1,5 @@
-FROM alpine:3.20 AS builder
+FROM alpine:3.19 AS builder
+# FROM alpine:3.20 AS builder - Not ready yet
 #
 # Include dist
 COPY dist/ /root/dist/
