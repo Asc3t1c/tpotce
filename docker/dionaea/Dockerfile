@@ -6,8 +6,8 @@ COPY dist/ /root/dist/
 #
 # Determine arch, get and install packages
 RUN ARCH=$(arch) && \
-      if [ $ARCH = "x86_64" ]; then ARCH="amd64"; fi && \
-      if [ $ARCH = "aarch64" ]; then ARCH="arm64"; fi && \
+      if [ "$ARCH" = "x86_64" ]; then ARCH="amd64"; fi && \
+      if [ "$ARCH" = "aarch64" ]; then ARCH="arm64"; fi && \
     echo "$ARCH" && \
     cd /root/dist/ && \
     apt-get update -y && \
