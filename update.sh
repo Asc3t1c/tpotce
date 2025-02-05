@@ -79,7 +79,7 @@ function fuSELFUPDATE () {
 
 function fuCHECK_VERSION () {
 	local myMINVERSION="24.04.0"
-	local myMASTERVERSION="24.04.0"
+	local myMASTERVERSION="24.04.1"
 	echo
 	echo "### Checking for version tag ..."
 	if [ -f "version" ];
@@ -166,7 +166,9 @@ function fuUPDATER () {
 	echo "######$myBLUE This might take a while, please be patient!$myWHITE"
 	fuPULLIMAGES
 	fuREMOVEOLDIMAGES "f0rc3ps/*:dev"
-	fuREMOVEOLDIMAGES "ghcr.io/f0rc3ps/*:dev"
+	fuREMOVEOLDIMAGES "ghcr.io/nu11secur1ty/*:dev"
+	fuREMOVEOLDIMAGES "f0rc3ps/*:25.04"
+	fuREMOVEOLDIMAGES "ghcr.io/nu11secur1ty/*:25.04"
 	echo
 	echo "### If you made changes to docker-compose.yml please ensure to add them again."
 	echo "### We stored the previous version as backup in $myARCHIVE."
